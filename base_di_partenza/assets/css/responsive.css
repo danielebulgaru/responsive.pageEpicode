@@ -3,3 +3,156 @@
         display: inline-block;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  header div img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  header nav ul li {
+    display: inline-block;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+    margin-top: 2em;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+ table {
+  display: table;        
+  margin: 0 auto 2em auto;
+  width: 90%;
+  max-width: 500px;
+  overflow-x: visible;  
+  margin-bottom: 7em;
+}
+
+  fieldset {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  input {
+    min-width: 200px;
+  }
+  }
+
+@media screen and (max-width: 1200px) {
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  header div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  header p {
+    flex: 1;
+    text-align: center;
+  }
+ article ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+ article ul li {
+  margin-bottom: 0.8em;
+}
+  header nav ul {
+    display: flex;
+    gap: 20px;
+  }
+
+  main {
+    padding: 2em;
+  }
+
+  table {
+  margin: 0 auto 2em auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+ article {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+ article iframe {
+  flex: 2;
+  height: 300px;
+  border-radius: 15px;
+}
+
+ article section {
+  flex: 1;
+  border-radius: 15px;
+  padding: 1em;
+}
+
+  section h2 {
+    padding: 0.5em;
+    border-radius: 10px;
+  }
+
+
+  aside {
+    margin-top: 3em;
+    text-align: center;
+  }
+
+  aside h2 {
+    margin-bottom: 2em;
+  }
+
+  aside div {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
